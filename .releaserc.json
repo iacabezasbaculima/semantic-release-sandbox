@@ -18,7 +18,7 @@
                     "commitsSort": "scope",
                     "generateGroupHeader": true,
                     "groupBy": "committerName",
-                    "mainTemplate": "custom.hbs"
+                    "mainTemplate": "./custom.hbs"
                 },
                 "presetConfig": {
                     "types": [
