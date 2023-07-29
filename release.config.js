@@ -1,4 +1,6 @@
 module.exports = {
+  branches: ["main"],
+  ci: false,
   plugins: [
     [
       "@semantic-release/commit-analyzer",
@@ -14,7 +16,7 @@ module.exports = {
           commitsSort: "scope",
           generateGroupHeader: true,
           groupBy: "committerName",
-          mainTemplate: require('fs').readFileSync('./custom.hbs', 'utf-8'),
+          mainTemplate: require("fs").readFileSync("./custom.hbs", "utf-8"),
         },
         presetConfig: {
           types: [
