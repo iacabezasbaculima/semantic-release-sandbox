@@ -1,8 +1,12 @@
+{{> header}}
+
 {{#each commitGroups}}
-## {{title}}
+## Custom Release notes
 
 {{#each commits}}
 - {{this.committerName}}: {{this.subject}}
 {{/each}}
 
 {{/each}}
+
+{{> footer}}
