@@ -1,0 +1,8 @@
+{{#each commitGroups}}
+## {{title}}
+
+{{#each commits}}
+- {{this.committerName}}: {{this.subject}}
+{{/each}}
+
+{{/each}}

@@ -17,7 +17,8 @@
                 "writerOpts": {
                     "commitsSort": "scope",
                     "generateGroupHeader": true,
-                    "groupBy": "committerName"
+                    "groupBy": "committerName",
+                    "mainTemplate": "custom.hbs"
                 },
                 "presetConfig": {
                     "types": [
