@@ -13,7 +13,26 @@
         [
             "@semantic-release/release-notes-generator",
             {
-                "preset": "conventionalcommits"
+                "preset": "conventionalcommits",
+                "presetConfig": {
+                    "types": [
+                        {
+                            "type": "feat",
+                            "section": ":sparkles: Features",
+                            "hidden": false
+                        },
+                        {
+                            "type": "fix",
+                            "section": ":bug: Bug Fixes",
+                            "hidden": false
+                        },
+                        {
+                            "type": "ci",
+                            "section": ":arrows_counterclockwise: CI",
+                            "hidden": false
+                        }
+                    ]
+                }
             }
         ],
         [
