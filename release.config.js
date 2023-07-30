@@ -12,12 +12,12 @@ module.exports = {
       "@semantic-release/release-notes-generator",
       {
         preset: "conventionalcommits",
-        writerOpts: {
-          commitsSort: "scope",
-          generateGroupHeader: true,
-          groupBy: "committerName",
-          //mainTemplate: require("fs").readFileSync("./custom.hbs", "utf-8"),
-        },
+        // writerOpts: {
+        //   commitsSort: "scope",
+        //   generateGroupHeader: true,
+        //   groupBy: "committerName",
+        //   mainTemplate: require("fs").readFileSync("./custom.hbs", "utf-8"),
+        // },
         presetConfig: {
           types: [
             {
