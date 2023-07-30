@@ -1,22 +1,11 @@
 {
+    "preset": "conventionalcommits",
     "branches": [
-        "main",
-        "master"
+        "main"
     ],
-    "ci": false,
     "plugins": [
-        [
-            "@semantic-release/commit-analyzer",
-            {
-                "preset": "conventionalcommits"
-            }
-        ],
-        [
-            "@semantic-release/release-notes-generator",
-            {
-                "preset": "conventionalcommits"
-            }
-        ],
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
         [
             "@semantic-release/github",
             {
