@@ -1,7 +1,7 @@
 name: 'Validate PR title'
 
 on:
-  pull_request_target:
+  pull_request:
     types:
       - opened
       - edited
@@ -52,4 +52,3 @@ jobs:
           # merge commit, and it's easy to commit this by mistake. Enable this option
           # to also validate the commit message for one commit PRs.
           validateSingleCommit: true
-          
