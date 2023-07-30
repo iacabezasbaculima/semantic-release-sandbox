@@ -18,25 +18,25 @@ module.exports = {
         //   groupBy: "committerName",
         //   mainTemplate: require("fs").readFileSync("./custom.hbs", "utf-8"),
         // },
-        presetConfig: {
-          types: [
-            {
-              type: "feat",
-              section: ":sparkles: Features",
-              hidden: false,
-            },
-            {
-              type: "fix",
-              section: ":bug: Bug Fixes",
-              hidden: false,
-            },
-            {
-              type: "ci",
-              section: ":arrows_counterclockwise: CI",
-              hidden: false,
-            },
-          ],
-        },
+        // presetConfig: {
+        //   types: [
+        //     {
+        //       type: "feat",
+        //       section: ":sparkles: Features",
+        //       hidden: false,
+        //     },
+        //     {
+        //       type: "fix",
+        //       section: ":bug: Bug Fixes",
+        //       hidden: false,
+        //     },
+        //     {
+        //       type: "ci",
+        //       section: ":arrows_counterclockwise: CI",
+        //       hidden: false,
+        //     },
+        //   ],
+        // },
       },
     ],
     [
