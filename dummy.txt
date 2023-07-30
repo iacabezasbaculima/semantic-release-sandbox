@@ -15,3 +15,5 @@
 ## dummy fix 3a
 
 ## dummy fix 3b
+
+## dummy feature 3
