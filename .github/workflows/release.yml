@@ -21,16 +21,17 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-
-      - name: Setup Node
-        uses: actions/setup-node@v3
-        with:
-          node-version-file: '.nvmrc'
+      
+      # Uncomment when not using github action to run semantic-release
+      # - name: Setup Node
+      #   uses: actions/setup-node@v3
+      #   with:
+      #     node-version-file: '.nvmrc'
 
       - name: Release
         uses: cycjimmy/semantic-release-action@v3
         with:
-          semantic_version: 21.0.7
+          semantic_version: 18.0.0
           dry_run: ${{ inputs.dry_run }}
           extra_plugins: |
             @semantic-release/changelog@6.0.3
