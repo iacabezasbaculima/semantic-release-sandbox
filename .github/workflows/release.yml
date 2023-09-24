@@ -22,11 +22,14 @@ jobs:
           persist-credentials: false
           fetch-depth: 0
       
-      # Uncomment when not using github action to run semantic-release
+#      Uncomment when not using github action to run semantic-release
       # - name: Setup Node
       #   uses: actions/setup-node@v3
       #   with:
       #     node-version-file: '.nvmrc'
+
+      - name: Node version
+        run: node --version
 
       - name: Release
         uses: cycjimmy/semantic-release-action@61680d0e9b02ff86f5648ade99e01be17f0260a4 # v4.0.0
