@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.6.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.5.0...v1.6.0) (2023-10-27)
+
 ## [1.5.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.4.0...v1.5.0) (2023-09-24)
 
 
