@@ -29,3 +29,5 @@
 ## dummy feature 7
 
 ## feat 8
+
+## chore(deps)
