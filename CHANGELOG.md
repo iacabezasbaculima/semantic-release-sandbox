@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.11.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.10.0...v1.11.0) (2023-10-27)
+
+
+### Bug Fixes
+
+* **deps:** Bump actions/checkout from 4.1.0 to 4.1.1 ([#21](https://github.com/iacabezasbaculima/semantic-release-sandbox/issues/21)) ([f4e0375](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/f4e03751fb226973159ccfac50def4f006abf2a5))
+
 ## [1.10.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.9.0...v1.10.0) (2023-10-27)
 
 
