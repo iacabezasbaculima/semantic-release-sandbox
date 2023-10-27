@@ -11,7 +11,7 @@
                 "releaseRules": [
                     {
                         "type": "chore",
-                        "scope": "deps",
+                        "scope": "deps*",
                         "release": "minor"
                     }
                 ]
@@ -26,10 +26,6 @@
                         {
                             "type": "chore",
                             "section": "Bug Fixes"
-                        },
-                        {
-                            "type": "docs",
-                            "section": "Documentation"
                         }
                     ]
                 }
