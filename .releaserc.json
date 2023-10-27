@@ -1,5 +1,7 @@
 {
     "preset": "conventionalcommits",
+    "ci": "false",
+    "dryRun": "false",
     "branches": [
         "main"
     ],
