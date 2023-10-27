@@ -26,6 +26,10 @@
                         {
                             "type": "chore",
                             "section": "Bug Fixes"
+                        },
+                        {
+                            "type": "docs",
+                            "section": "Documentation"
                         }
                     ]
                 }
