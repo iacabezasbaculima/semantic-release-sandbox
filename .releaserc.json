@@ -24,7 +24,7 @@
                 "presetConfig": {
                     "types": [
                         {
-                            "type": "chore(deps)",
+                            "type": "chore",
                             "section": "Bug Fixes"
                         }
                     ]
