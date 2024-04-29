@@ -14,7 +14,7 @@
                     {
                         "type": "chore",
                         "scope": "deps*",
-                        "release": "minor"
+                        "release": "patch"
                     }
                 ]
             }
