@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.0.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.17.1...v2.0.0) (2024-04-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* bump semantic release and plugin versions
+
+### feat
+
+* bump semantic release and plugin versions ([f9f25d0](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/f9f25d0d726587d0528265e430e4534993b33f44))
+
 ## [1.17.1](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.17.0...v1.17.1) (2024-04-29)
 
 
