@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.16.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.15.0...v1.16.0) (2024-04-29)
+
+
+### Bug Fixes
+
+* **deps:** Bump cycjimmy/semantic-release-action from 4.0.0 to 4.1.0 ([#23](https://github.com/iacabezasbaculima/semantic-release-sandbox/issues/23)) ([e1c6a81](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/e1c6a81cb11178bf3f8376b85704aacaca841c29))
+
 ## [1.15.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v1.14.0...v1.15.0) (2024-04-29)
 
 
