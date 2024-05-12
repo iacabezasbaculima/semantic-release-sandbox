@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.8.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.7.1...v2.8.0) (2024-05-12)
+
+
+### Features
+
+* this is my feature after ([dae06ac](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/dae06ac4d8c159007bdec932fa478c304b21f537))
+
+
+### Bug Fixes
+
+* new bug fix after ([8fd8694](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/8fd8694ef9335d42368c48e648e156082879fc25))
+
 ## [2.7.1](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.7.0...v2.7.1) (2024-05-12)
 
 
