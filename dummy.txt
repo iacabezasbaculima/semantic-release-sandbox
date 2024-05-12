@@ -51,3 +51,7 @@ chore
 ## patch chore(deps)
 
 ## feat xx
+
+## feat
+
+print action output
