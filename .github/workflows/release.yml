@@ -53,6 +53,10 @@ jobs:
           echo "last head: ${{ steps.release.outputs.last_release_git_head}}"
           echo "last tag: ${{ steps.release.outputs.last_release_git_tag}}"
           echo "last version: ${{ steps.release.outputs.last_release_version}}"
+          
+          # https://github.com/orgs/community/discussions/26560
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           MAJOR_VERSION="${{ steps.release.outputs.new_release_major_version}}"
           NEW_HEAD_COMMIT="${{ steps.release.outputs.new_release_git_head}}"

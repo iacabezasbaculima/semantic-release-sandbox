@@ -57,3 +57,5 @@ chore
 print action output
 
 ## adding script to update major version
+
+## configure git
