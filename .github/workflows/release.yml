@@ -32,6 +32,7 @@ jobs:
         run: node --version
 
       - name: Release
+        id: release
         uses: cycjimmy/semantic-release-action@cb425203a562475bca039ba4dbf90c7f9ac790f4 # v4.1.0
         with:
           semantic_version: 23.0.2
@@ -42,3 +43,9 @@ jobs:
             conventional-changelog-conventionalcommits@7.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_PAT }}
+
+      - name: Update major version tag
+        run: |
+          cat "$GITHUB_OUTPUT"
+          #git tag --delete
+          #git push origin --delete ${TAG}
