@@ -45,18 +45,24 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_PAT }}
 
       - name: Update major version tag
+        if: steps.release.outputs.new_release_published
         run: |
-          cat "$GITHUB_OUTPUT"
           echo "head: ${{ steps.release.outputs.new_release_git_head}}"
           echo "tag: ${{ steps.release.outputs.new_release_git_tag}}"
-          echo "channel: ${{ steps.release.outputs.new_release_channel}}"
-          echo "published: ${{ steps.release.outputs.new_release_published}}"
           echo "version: ${{ steps.release.outputs.new_release_version}}"
-          echo "M: ${{ steps.release.outputs.new_release_major_version}}"
-          echo "m: ${{ steps.release.outputs.new_release_minor_version}}"
-          echo "p: ${{ steps.release.outputs.new_release_patch_version}}"
           echo "last head: ${{ steps.release.outputs.last_release_git_head}}"
           echo "last tag: ${{ steps.release.outputs.last_release_git_tag}}"
           echo "last version: ${{ steps.release.outputs.last_release_version}}"
-          #git tag --delete
-          #git push origin --delete ${TAG}
+
+          MAJOR_VERSION="${{ steps.release.outputs.new_release_major_version}}"
+          NEW_HEAD_COMMIT="${{ steps.release.outputs.new_release_git_head}}"
+          if git rev-parse "v$MAJOR_VERSION" >/dev/null 2>&1; then
+            echo "git tag exists, updating..."
+            git tag -f "v$MAJOR_VERSION" "$NEW_HEAD_COMMIT"
+            git push origin -d "v$MAJOR_VERSION"
+            git push origin "v$MAJOR_VERSION"
+          else
+            echo "git tag does not exist, creating..."
+            git tag "v$MAJOR_VERSION" "$NEW_HEAD_COMMIT"
+            git push origin "v$MAJOR_VERSION"
+          fi

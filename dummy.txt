@@ -55,3 +55,5 @@ chore
 ## feat
 
 print action output
+
+## adding script to update major version
