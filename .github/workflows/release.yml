@@ -46,8 +46,8 @@ jobs:
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
             conventional-changelog-conventionalcommits@7.0.2
-        # env:
-        #   GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_PAT }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_PAT }}
 
       - name: Update major version tag
         if: steps.release.outputs.new_release_published
