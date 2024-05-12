@@ -59,3 +59,5 @@ print action output
 ## adding script to update major version
 
 ## configure git
+
+## use semantic release token to push tags
