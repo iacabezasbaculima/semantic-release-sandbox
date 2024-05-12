@@ -61,3 +61,6 @@ print action output
 ## configure git
 
 ## use semantic release token to push tags
+
+
+## persist creds
