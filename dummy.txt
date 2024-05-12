@@ -68,3 +68,5 @@ print action output
 ## override github token in semantic release step
 
 ## move debug flag to semrel step
+
+## test chore(deps)
