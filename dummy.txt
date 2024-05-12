@@ -66,3 +66,5 @@ print action output
 ## persist creds
 
 ## override github token in semantic release step
+
+## move debug flag to semrel step
