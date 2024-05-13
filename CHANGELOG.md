@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## [3.0.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.9.0...v3.0.0) (2024-05-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* update dummy.txt
+
+### Bug Fixes
+
+* update dummy.txt ([149b83a](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/149b83a251aec4a0e93e2609fa34855abf74b1d7))
+
 ## [2.9.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.8.1...v2.9.0) (2024-05-13)
 
 
