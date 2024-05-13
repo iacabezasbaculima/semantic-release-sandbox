@@ -74,3 +74,5 @@ print action output
 ## new feat
 
 ## new bug fix
+
+## git commit -m "chore(deps): this s a new chore dep"

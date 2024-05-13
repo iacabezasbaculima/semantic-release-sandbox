@@ -27,8 +27,7 @@
                     "types": [
                         {
                             "type": "chore",
-                            "section": "Bug Fixes",
-                            "hidden": false
+                            "section": "Bug Fixes"
                         }
                     ]
                 }
