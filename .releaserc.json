@@ -23,8 +23,16 @@
             "@semantic-release/release-notes-generator",
             {
                 "preset": "conventionalcommits",
-                "writerOpts": {
+                "presetConfig": {
                     "types": [
+                        {
+                            "type": "feat",
+                            "section": "Features"
+                        },
+                        {
+                            "type": "fix",
+                            "section": "Bug Fixes"
+                        },
                         {
                             "type": "chore",
                             "section": "Bug Fixes"
