@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [2.9.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.8.1...v2.9.0) (2024-05-13)
+
+
+### Features
+
+* using presetconfig ([2cf995c](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/2cf995ccf9ad357bccf678d3920b000287cf6f30))
+
+
+### Bug Fixes
+
+* **deps:** test chore dep with presetconfig ([054489c](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/054489cb1b29e59361ed61f1808fc78709e8144e))
+* new bug fix presetconfig ([4218c18](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/4218c18617f94a7502ed51bdc263d4a154b2e1c9))
+
 ## [2.8.1](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.8.0...v2.8.1) (2024-05-13)
 
 ## [2.8.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.7.1...v2.8.0) (2024-05-12)
