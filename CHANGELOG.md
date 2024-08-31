@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.1](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.0.0...v4.0.1) (2024-08-31)
+
+
+### Bug Fixes
+
+* Dummy fix ([#30](https://github.com/iacabezasbaculima/semantic-release-sandbox/issues/30)) ([54a5e12](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/54a5e1274d32d3b8a8c620850d4ffaf1a257341f))
+
 ## [4.0.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v3.0.0...v4.0.0) (2024-08-31)
 
 
