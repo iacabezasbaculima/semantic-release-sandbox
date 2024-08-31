@@ -1,7 +1,5 @@
 {
     "preset": "conventionalcommits",
-    "ci": "false",
-    "dryRun": "false",
     "branches": [
         "main"
     ],
@@ -64,6 +62,9 @@
                 ],
                 "message": "chore(release): version ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
             }
+        ],
+        [
+            "semantic-release-major-tag"
         ]
     ]
 }
