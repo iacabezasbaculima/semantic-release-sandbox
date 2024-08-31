@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.0.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v3.0.0...v4.0.0) (2024-08-31)
+
+
+### ⚠ BREAKING CHANGES
+
+* Test major tag plugin (#29)
+
+### Features
+
+* Test major tag plugin ([#29](https://github.com/iacabezasbaculima/semantic-release-sandbox/issues/29)) ([1cb72da](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/1cb72daa85f8f0a7ffc58d0d028e27ae1b7a6688))
+
+
+### Bug Fixes
+
+* **deps:** Bump actions/checkout from 4.1.5 to 4.1.7 ([#28](https://github.com/iacabezasbaculima/semantic-release-sandbox/issues/28)) ([2821008](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/2821008003668f1b12401bf4eec7c2b8b56b211e))
+
 ## [3.0.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v2.9.0...v3.0.0) (2024-05-13)
 
 
