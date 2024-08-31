@@ -82,3 +82,5 @@ print action output
 ## new fix presetconfig
 
 ## a breaking change
+
+## add feat to test major tag plugin

@@ -43,33 +43,34 @@ jobs:
             @semantic-release/changelog@6.0.3
             @semantic-release/git@10.0.1
             conventional-changelog-conventionalcommits@7.0.2
+            semantic-release-major-tag@0.3.2
         env:
           DEBUG: semantic-release:*
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_PAT }}
 
-      - name: Update major version tag
-        if: steps.release.outputs.new_release_published
-        run: |
-          echo "head: ${{ steps.release.outputs.new_release_git_head}}"
-          echo "tag: ${{ steps.release.outputs.new_release_git_tag}}"
-          echo "version: ${{ steps.release.outputs.new_release_version}}"
-          echo "last head: ${{ steps.release.outputs.last_release_git_head}}"
-          echo "last tag: ${{ steps.release.outputs.last_release_git_tag}}"
-          echo "last version: ${{ steps.release.outputs.last_release_version}}"
+      # - name: Update major version tag
+      #   if: steps.release.outputs.new_release_published
+      #   run: |
+      #     echo "head: ${{ steps.release.outputs.new_release_git_head}}"
+      #     echo "tag: ${{ steps.release.outputs.new_release_git_tag}}"
+      #     echo "version: ${{ steps.release.outputs.new_release_version}}"
+      #     echo "last head: ${{ steps.release.outputs.last_release_git_head}}"
+      #     echo "last tag: ${{ steps.release.outputs.last_release_git_tag}}"
+      #     echo "last version: ${{ steps.release.outputs.last_release_version}}"
 
-          # https://github.com/orgs/community/discussions/26560
-          # git config --global user.name "github-actions[bot]"
-          # git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      #     # https://github.com/orgs/community/discussions/26560
+      #     # git config --global user.name "github-actions[bot]"
+      #     # git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          MAJOR_VERSION="${{ steps.release.outputs.new_release_major_version}}"
-          NEW_HEAD_COMMIT="${{ steps.release.outputs.new_release_git_head}}"
-          if git rev-parse "v$MAJOR_VERSION" >/dev/null 2>&1; then
-            echo "git tag exists, updating..."
-            git tag -f "v$MAJOR_VERSION" "$NEW_HEAD_COMMIT"
-            git push origin -d "v$MAJOR_VERSION"
-            git push origin "v$MAJOR_VERSION"
-          else
-            echo "git tag does not exist, creating..."
-            git tag "v$MAJOR_VERSION" "$NEW_HEAD_COMMIT"
-            git push origin "v$MAJOR_VERSION"
-          fi
+      #     MAJOR_VERSION="${{ steps.release.outputs.new_release_major_version}}"
+      #     NEW_HEAD_COMMIT="${{ steps.release.outputs.new_release_git_head}}"
+      #     if git rev-parse "v$MAJOR_VERSION" >/dev/null 2>&1; then
+      #       echo "git tag exists, updating..."
+      #       git tag -f "v$MAJOR_VERSION" "$NEW_HEAD_COMMIT"
+      #       git push origin -d "v$MAJOR_VERSION"
+      #       git push origin "v$MAJOR_VERSION"
+      #     else
+      #       echo "git tag does not exist, creating..."
+      #       git tag "v$MAJOR_VERSION" "$NEW_HEAD_COMMIT"
+      #       git push origin "v$MAJOR_VERSION"
+      #     fi
