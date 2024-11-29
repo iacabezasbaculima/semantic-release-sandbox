@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.1.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.0.1...v4.1.0) (2024-11-29)
+
+
+### Features
+
+* test disabled github plugin ([a60b739](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/a60b73903f957cd915c64ab30b2f754ae39e5e91))
+
 ## [4.0.1](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.0.0...v4.0.1) (2024-08-31)
 
 
