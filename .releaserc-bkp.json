@@ -40,6 +40,14 @@
             }
         ],
         [
+            "@semantic-release/github",
+            {
+                "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version} :tada:",
+                "labels": false,
+                "releasedLabels": false
+            }
+        ],
+        [
             "@semantic-release/changelog",
             {
                 "changelogFile": "CHANGELOG.md",
