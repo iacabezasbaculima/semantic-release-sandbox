@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.2.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.1.0...v4.2.0) (2025-02-23)
+
+
+### Features
+
+* test exec with env var ([1f23434](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/1f23434e52d1c7f33983e52d344a10857911e12f))
+
+
+### Bug Fixes
+
+* install exec ([5d1b3a6](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/5d1b3a6b13155e3cdba1c9e0f9220c5e5a5c1b39))
+* test ([b142184](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/b142184c6bccc437da1188df61c764e7d255b67b))
+
 ## [4.1.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.0.1...v4.1.0) (2024-11-29)
 
 
