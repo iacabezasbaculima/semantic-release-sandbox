@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [4.3.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.2.0...v4.3.0) (2025-02-23)
+
+
+### Features
+
+* test envCI context ([a9a7029](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/a9a7029e22bc52b11a3a81b53a10025272e444e7))
+
 ## [4.2.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.1.0...v4.2.0) (2025-02-23)
 
 
