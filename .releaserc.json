@@ -62,7 +62,7 @@
             "@semantic-release/exec",
             {
               "verifyReleaseCmd": "test -n \"${nextRelease.version}\"",
-              "prepareCmd": "echo $FOO_BAR && echo ${nextRelease.version} && echo ${nextRelease.gitHead}"
+              "prepareCmd": "echo $FOO_BAR && echo ${nextRelease.version} && echo ${nextRelease.gitHead} && echo ${envCI.commit}"
             }
           ]
     ]
