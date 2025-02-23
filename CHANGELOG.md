@@ -8,6 +8,19 @@ All notable changes to this project will be documented in this file.
 ### Features
 
 * test envCI context ([a9a7029](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/a9a7029e22bc52b11a3a81b53a10025272e444e7))
+* test github plugin with glob and env var ([c035c16](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/c035c165e874842191e08360620e097f2c60ec52))
+
+
+### Bug Fixes
+
+* **release:** version 4.3.0 [skip ci] ([c713734](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/c713734acc63ea85f1430c3a1136576507147071))
+
+## [4.3.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.2.0...v4.3.0) (2025-02-23)
+
+
+### Features
+
+* test envCI context ([a9a7029](https://github.com/iacabezasbaculima/semantic-release-sandbox/commit/a9a7029e22bc52b11a3a81b53a10025272e444e7))
 
 ## [4.2.0](https://github.com/iacabezasbaculima/semantic-release-sandbox/compare/v4.1.0...v4.2.0) (2025-02-23)
 
