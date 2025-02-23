@@ -33,6 +33,9 @@ jobs:
       - name: Node version
         run: node --version
 
+      - name: Create build dir
+        run: mkdir -p ./.aws-sam/build
+
       - name: Release
         id: release
         uses: cycjimmy/semantic-release-action@cb425203a562475bca039ba4dbf90c7f9ac790f4 # v4.1.0
@@ -49,6 +52,7 @@ jobs:
           DEBUG: semantic-release:*
           GITHUB_TOKEN: ${{ secrets.SEMANTIC_RELEASE_PAT }}
           FOO_BAR: baz
+          BUILD_DIR: ./.aws-sam/build
 
       - name: Update major version tag
         # if: steps.release.outputs.new_release_published

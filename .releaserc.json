@@ -62,8 +62,17 @@
             "@semantic-release/exec",
             {
               "verifyReleaseCmd": "test -n \"${nextRelease.version}\"",
-              "prepareCmd": "echo $FOO_BAR && echo ${nextRelease.version} && echo ${nextRelease.gitHead} && echo ${envCI.commit}"
+              "prepareCmd": "echo \"$FOO_BAR\" > $BUILD_DIR/foo-bar.txt"
             }
-          ]
+        ],
+        [
+            "@semantic-release/github",
+            {
+              "successComment": "This ${issue.pull_request ? 'PR is included' : 'issue has been resolved'} in version ${nextRelease.version} :tada:",
+              "labels": false,
+              "releasedLabels": false,
+              "assets": "$BUILD_DIR/*.txt"
+            }
+        ]
     ]
 }
