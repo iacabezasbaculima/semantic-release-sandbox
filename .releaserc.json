@@ -57,6 +57,13 @@
         ],
         [
             "semantic-release-major-tag"
-        ]
+        ],
+        [
+            "@semantic-release/exec",
+            {
+              "verifyReleaseCmd": "test -n \"${nextRelease.version}\"",
+              "prepareCmd": "echo $FOO_BAR && echo ${nextRelease.version} && echo ${nextRelease.gitHead}"
+            }
+          ]
     ]
 }
